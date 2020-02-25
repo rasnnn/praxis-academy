@@ -1,0 +1,19 @@
+Nama: Risky Asnawawi
+
+Kernel
+
+Lokasi kernel terdapat pada (dmesg | grep Linux)
+Yang berisi :
+[    0.000000] Linux version 5.3.0-40-generic (buildd@lcy01-amd64-024) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 (Ubuntu 5.3.0-40.32~18.04.1-generic 5.3.18)
+[    0.168313] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.168314] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.168315] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.212414] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.265591] pps_core: LinuxPPS API ver. 1 registered
+[    1.167192] Linux agpgart interface v0.103
+[    1.188325] usb usb1: Manufacturer: Linux 5.3.0-40-generic ehci_hcd
+[    1.190240] usb usb2: Manufacturer: Linux 5.3.0-40-generic xhci-hcd
+[    1.192754] usb usb3: Manufacturer: Linux 5.3.0-40-generic xhci-hcd
+[    3.725990] mc: Linux media interface: v0.10
+[    3.746746] videodev: Linux video capture interface: v2.00
+
