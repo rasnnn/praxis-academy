@@ -1,1 +1,21 @@
+Nama : Risky Asnawawi
 
+
+1. Didalam menu grub terdapat parameter sebagai berikut :
+
+- Ubuntu
+- Advanced options for Ubuntu
+	- Ubuntu with linux 5.3.0-40-generic
+	- Ubuntu with linux 5.3.0-40-generic (Recovery Mode)
+	- Ubuntu with linux 5.3.0-28-generic
+	- Ubuntu with linux 5.3.0-28-generic (Recovery Mode)
+- Windows Boot Manager (on /dev/sda2)
+- System setup
+
+Parameter Ubuntu berfungsi untuk masuk kedalam sistem operasi ubuntu
+
+Parameter Advanced Options for Ubuntu berfungsi untuk membukan menu sub kernel yang didalamnya berfungsi untuk security sistem
+
+Parameter Windows Boot Manager berfungsi untuk masuk kedalam sistem windows karena saya disini dualboot
+
+Parameter System setup berfungsi untuk membuka bios 
