@@ -1,0 +1,202 @@
+Nama : Risky Asnawawi
+
+1.root@trustme-1101:/home/trustme# ls
+Desktop    Downloads         Kernel-linux.txt  Pictures  Templates
+Documents  examples.desktop  Music             Public    Videos
+
+2.root@trustme-1101:/home/trustme# ls -a
+.              .config           .ICEauthority     Public
+..             Desktop           Kernel-linux.txt  .ssh
+.bash_history  .dmrc             .local            .sudo_as_admin_successful
+.bash_logout   Documents         .mozilla          Templates
+.bashrc        Downloads         Music             Videos
+.cache         examples.desktop  Pictures          .Xauthority
+.cinnamon      .gnupg            .profile          .xsession-errors
+
+3.root@trustme-1101:/home/trustme/Documents# cat > belajar
+Saya Risky Asnawawi
+root@trustme-1101:/home/trustme/Documents# ls
+'Android Project'   app   belajar   env.txt   gradle   grub.txt
+
+4. root@trustme-1101:/home/trustme/Documents# rm belajar 
+root@trustme-1101:/home/trustme/Documents# ls
+'Android Project'   app   env.txt   gradle   grub.txt
+
+5.root@trustme-1101:/home/trustme/Documents# mkdir belajar
+root@trustme-1101:/home/trustme/Documents# ls
+'Android Project'   app   belajar   env.txt   gradle   grub.txt
+
+6.root@trustme-1101:/home/trustme/Documents# mv belajar /home/trustme/Downloads/
+root@trustme-1101:/home/trustme/Documents# cd /home/trustme/Downloads/
+root@trustme-1101:/home/trustme/Downloads# ls
+belajar
+
+7.root@trustme-1101:/home/trustme/Documents# cd /home/trustme/Downloads/
+
+8.root@trustme-1101:/home/trustme/Downloads# mv belajar belajaryuk
+root@trustme-1101:/home/trustme/Downloads# ls
+belajaryuk
+
+9.root@trustme-1101:/home/trustme/Downloads# rmdir belajaryuk/
+root@trustme-1101:/home/trustme/Downloads# ls
+
+10.root@trustme-1101:/home/trustme/Documents# rmdir Belajar/
+root@trustme-1101:/home/trustme/Documents# ls
+'Android Project'   app   env.txt   gradle   grub.txt
+
+11.root@trustme-1101:/home/trustme/Documents# history
+    1  apt-get upgrade
+    2  apt-get update
+    3  fdisk-l
+    4  fdisk -l
+    5  ntfsfix /dev/sdb1
+    6  ntfsfix /dev/sdb2
+    7  6:i386 lib32z1 libbz2-1.0:i386
+    8  add-apt-repository ppa:webupd8team/java
+    9  apt-get update
+   10  apt install oracle-java8-installer
+   11  apt install oracle-java8-installersudo apt install oracle-java8-installr
+   12  sudo apt install oracle-java8-installer
+   13  gedit /opt/
+   14  cd /opt/
+   15  ls
+   16  gedit /etc/apt/sources.list
+   17  nano /etc/apt/sources.list
+   18  java -version
+   19  sudo apt install openjdk-8-jdk
+   20  cd ..
+   21  ls
+   22  cd /home/
+   23  ls
+   24  cd trustme/Downloads/
+   25  cp android-studio-ide-191.6010548-linux.tar.gz /opt/
+   26  cd /opt/
+   27  ls
+   28  tar -xzvf android-studio-ide-191.6010548-linux.tar.gz 
+   29  ls
+   30  cd android-studio
+   31  ls
+   32  cd bin/
+   33  ls
+   34  ./studio.sh 
+   35  apt-get update
+   36  java -version
+   37  reboot 
+   38  fdsik -l
+   39  fdisk -l
+   40  apt-get update
+   41  apt install apt-transport-https ca-certificates curl software-properties-common
+   42  curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   43  sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+   44  apt-get update
+   45  apt install sublime-text
+   46  cat /proc/meminfo 
+   47  poweroff 
+   48  cd /boot/grub/
+   49  ls
+   50  cat grub.cfg 
+   51  reboot 
+   52  gedit 
+   53  apt install gedit
+   54  dpkg -l
+   55  ls /usr/bin/*session
+   56  cat /etc/X11/default-display-manager
+   57  echo $DESKTOP_SESSION
+   58  echo $XDG_CURRENT_DESKTOP
+   59  ls /usr/bin/*session
+   60  sudo apt-get install wmctrl
+   61  wmctrl -m
+   62  wmctrl -l
+   63  wmctrl -m
+   64  sudo add-apt-repository universe
+   65  apt install gnome-tweak-tool
+   66  gnome-tweaks 
+   67  poweroff 
+   68  cat /etc/X11/default-display-manager
+   69  wmctrl -m
+   70  ls /usr/bin/*session
+   71  echo $XDG_CURRENT_DESKTOP
+   72  cat /usr/bin/*session*
+   73  clear
+   74  sudo add-apt-repository universe
+   75  sudo apt install cinnamon-desktop-environment lightdm
+   76  reboot 
+   77  nautilus --version
+   78  ps -ef | egrep "xfwm|twm|metacity|beryl|compiz" | grep -v egrep
+   79  wmctrl -m
+   80  ps -ef | egrep "xfwm|twm|metacity|beryl|compiz" | grep -v egrep
+   81  sudo update-alternatives --config x-session-manager
+   82  cat /etc/X11/default-display-manager
+   83  ls /usr/bin/*session
+   84  env | grep DESKTOP_SESSION=
+   85  wmctrl -m
+   86  echo $DESKTOP_SESSION 
+   87  def detect_desktop_environment()
+   88  def detect_desktop_environment();
+   89  def detect_desktop_environment():
+   90  ls /usr/bin/*session
+   91  pgrep -l "gnome|kde|mate|cinnamon"
+   92  sudo apt-get install hardinfo
+   93  hardinfo ?
+   94  hardinfo --help
+   95  hardinfo -v
+   96  hardinfo -l
+   97  ls /usr/bin/session
+   98  ls /usr/bin/session -help
+   99  ls /usr/bin/session --help
+  100  ls /usr/bin/current_session
+  101  ls /usr/bin/*session
+  102  cd /usr/bin/cinnamon-session
+  103  ls
+  104  uname -r
+  105  uname -h
+  106  uname --help
+  107  uname -a
+  108  cat /proc/version
+  109  cd /proc/version
+  110  cd /proc
+  111  ls
+  112  dmesg | grep LInux
+  113  dmesg | grep Linux
+  114  echo "$SHELL"
+  115  cd /home/trustme/
+  116  ls
+  117  ls -a
+  118  cd Documents/
+  119  ls
+  120  cat Belajar1
+  121  cat belajar
+  122  cat > belajar
+  123  l
+  124  ls
+  125  rm belajar 
+  126  ls
+  127  mkdir belajar
+  128  ls
+  129  cd belajar/
+  130  cd ..
+  131  mv belajar /home/trustme/Downloads/
+  132  cd /home/trustme/Downloads/
+  133  ls
+  134  mv belajar belajaryuk
+  135  ls
+  136  rmdir belajaryuk/
+  137  ls
+  138  mkdir belajar /home/trustme/Documents/
+  139  mkdir /home/trustme/Documents/Belajar
+  140  cd /home/trustme/Documents/
+  141  ls
+  142  rmdir Belajar/
+  143  ls
+  144  history
+
+12.root@trustme-1101:/home/trustme/Documents# clear
+
+13.root@trustme-1101:/home/trustme/Documents# cd ..
+root@trustme-1101:/home/trustme# 
+
+
+
+
+
+
