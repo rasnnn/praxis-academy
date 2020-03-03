@@ -1,0 +1,11 @@
+Nama : Risky Asnawawi
+
+Install Stagehand
+
+tambahkan: 
+export PATH="$PATH:/usr/lib/dart/bin" pada /home/trustme/.bashrc 
+
+ketikan pada terminal:
+pub global activate stagehand
+
+
