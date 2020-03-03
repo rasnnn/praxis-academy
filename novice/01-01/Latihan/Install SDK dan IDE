@@ -1,0 +1,110 @@
+Nama : Risky Asnawawi
+
+Pertama saya akan menginstall DART di linux menggunakan apt-get :
+
+sudo apt-get update
+
+sudo apt-get install apt-transport-https
+
+sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
+
+sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'
+
+Setelah itu cek versi dart :
+
+dart --version
+
+Kedua saya akan menginstall flutter di linux :
+
+1. saya akan menginstall JDK (Java Development Kit) disini menggunakan default-jdk OpenJDK(java11) :
+
+sudo apt update
+
+sudo apt install default-jdk
+
+setelah itu cek versi javanya :
+
+java -version
+
+2. Setelah menginstall JDK(Java Development Kit) saya akan menginstall Android Studio sebagai IDE-nya:
+
+Saya mendownload android studio di https://developer.android.com/studio
+
+Lalu ekstrak file yang telah didownload tadi ke /opt:
+sudo tar xzvf android-studio-ide-192.6200805-linux.tar.gz /opt
+
+cd android-studio/bin
+
+./studio.sh
+
+Setelah proses diatas dilakukan, nanti akan ditampilan tampilan instalasi android studio, saya mengatur posisi SDK di /home/nama-user/ yang nantinya akan membentuk file Android/Sdk setelah proses instalasinya
+
+Tugas kita selanjutnya yakni menambahkan direktori Android/Sdk kedalam file /home/nama-user/.bashrc agar perintah android dapat digunakan di terminal dan flutter juga dapat mendeteksinya
+
+nano /home/trustme/.bashrc
+
+tambahkan baris ini :
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+
+lalu simpan dan test dengan command
+android --version
+
+
+3. Install FLutter SDK di Linux
+Untuk bisa menginstal Flutter, pastikan kamu memnuhi requirement berikut:
+
+    - Gunakan Sistem Operasi Linux (64 bit)
+    - Memiliki ruang kosong sebesar 600MB
+
+Lalu tools berikut harus sudah terinstal:
+
+    -bash
+    -curl
+    -git versi 2 ke atas
+    -mkdir
+    -rm
+    -unzip
+    -which
+    -xz-utils
+    -libglu1-mesa
+
+Silahkan install mereka semua dengan perintah berikut ini:
+
+sudo apt install curl git unzip xz-utils libglu1-mesa
+
+Download Flutter SDK https://flutter.dev/docs/get-started/install
+
+Ekstrak file yang download ke /opt
+
+tar xf flutter_linux_v1.12.13+hotfix.8-stable.tar.xz /opt
+
+nano /home/nama-user/.bashrc
+
+tambahkan export PATH=$PATH:~/apps/flutter/bin/
+
+Tes dengan mengetikan flutter pada terminal
+
+ketikan "flutter doctor" (tanpa tanda kutip)
+Bila mendapatkan masalah seperti:
+
+    -Library yang dibutuhkan belum terinstall di komputer kita;
+    -Android SDK tidak dapat terdeteksi oleh Flutter
+
+Ketikan perintah android doctor--android-licenses untuk mengatasi error (Android SDK tidak dapat terdeteksi oleh Flutter)
+
+Untuk mengatasi error (Library yang dibutuhkan belum terinstall di komputer kita)
+-Buka android studio
+-Buka configure
+-Pilih Setting
+-Pilih plugin
+-install Flutter dan Dart
+
+
+
+
+
+
+
+ 
